@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');.font{
+    font-family: 'Poppins', sans-serif;
+}
+h4{
+    font-size: 18px;
+
+
+}
+.content h1{
+    font-size: 95px;
+    font-weight: bold;
+}
+h3{
+    font-size: 26px;
+}
+pre{
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 16px;
+}
+.text h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin: 18px;
+    color: white;
+    font-size: 80px;
+}
+.text h3{
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px;
+    color: #f9004d;
+    font-size: 26px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    width: 350px;
+    border: 2px solid #373434;
+    box-shadow:0px 0px 7px 1px;;
+    border-radius: 35px;
+    /* margin: 10px; */
+    color: white;
+
+}
+.boxes pre{
+    font-size:25px ;
+}
+.boxes h1{
+    font-size: 40px;
+}
+.readMore{
+    margin: 12px;
+}
+.hire{
+    border-radius:13px;
+    color: white;
+    background-color: #f9004d;
+    border: 1px solid white;
+    padding:6px 18px;
+}
+.logo-contener{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    padding:12px;
+}
+li{
+    cursor: pointer;
+  list-style-type: none;
+}
+li a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color:rgb(179, 169, 169);
+}
+.pointer{
+    cursor: pointer;
+    transition: 0.8s;
+}
+.pointer:hover{
+    color:#f9004d;
+    background-color:black;
+    border: none;
+}
